@@ -10,4 +10,5 @@ Development Master OpenELEC.tv
 docker run --name openelec -v /you/openelec/generic/dev/builds:/builds damonmorgan/openelec-build
 ```
 
+## Credits
 Partially forked from https://github.com/ArnaudPiroelle/docker-openelec-build
