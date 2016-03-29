@@ -21,6 +21,6 @@ fi
 
 make image
 
-cp target/*.* /builds
+cp target/*.{tar,gz} /builds
 
 exec "$@"
