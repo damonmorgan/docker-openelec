@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
         gperf \
         libncurses5-dev \
         libxml-parser-perl \
-        openjdk-7-jre-headless \
+        openjdk-9-jre-headless \
         texinfo \
         u-boot-tools \
         unzip \
