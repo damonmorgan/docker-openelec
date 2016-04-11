@@ -6,7 +6,7 @@ rm -rf build.*
 rm -rf target/*
 
 git checkout master
-if [ -z "$BRANCH" ]; then
+if [ -n "$BRANCH" ]; then
   git checkout "$BRANCH"
 fi
 git pull
