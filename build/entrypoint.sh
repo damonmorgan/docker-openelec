@@ -6,10 +6,10 @@ rm -rf build.*
 rm -rf target/*
 
 git checkout master
+git pull
 if [ -n "$BRANCH" ]; then
   git checkout "$BRANCH"
 fi
-git pull
 
 if [ -z "$PROJECT" ]; then
   export PROJECT=Generic
